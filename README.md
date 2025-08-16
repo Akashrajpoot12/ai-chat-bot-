@@ -162,21 +162,13 @@ print(f"Similarity score: {best_score}")
 - **Advanced NLP**: Integration with GPT or other LLMs
 - **Themes**: Dark/light mode and custom themes
 
-## 📝 License
 
-This project is open source and available under the MIT License.
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
-## 📞 Support
 
-If you encounter any issues or have questions, please:
-1. Check the troubleshooting section
-2. Review the code comments
-3. Open an issue with detailed information
-
----
 
 **Enjoy chatting with your AI assistant! 🤖💬**
+
