@@ -1,0 +1,299 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "howdy",
+        "sup",
+        "what's up",
+        "kaise ho",
+        "kya haal hai",
+        "namaste",
+        "kaise ho aap",
+        "kya haal hai dost",
+        "sab badhiya",
+        "sab theek",
+        "kya chal raha hai",
+        "kya haal chaal",
+        "aap kaise hain",
+        "tum kaise ho",
+        "dost kaise ho"
+      ],
+      "responses": [
+        "Hey there! 😊 Kaise ho?",
+        "Hi buddy! Kya haal hai?",
+        "Hey! Long time no see! 😄",
+        "Hello dost! Sab badhiya?",
+        "Hi yaar! Kya chal raha hai?",
+        "Hey! Aaj ka din kaisa ja raha hai?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "take care",
+        "farewell",
+        "until next time",
+        "alvida",
+        "phir milenge",
+        "chalo bye"
+      ],
+      "responses": [
+        "Bye dost! Phir milenge! 👋",
+        "Take care yaar! Baad mein baat karte hain!",
+        "See you later! Miss karunga! 😊",
+        "Chalo bye! Jaldi wapas aana!",
+        "Alvida! Khush raho! 🌟",
+        "Bye bye! Phir milenge kabhi!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thx",
+        "thank you so much",
+        "thanks a lot",
+        "appreciate it",
+        "shukriya",
+        "dhanyawad",
+        "thank you yaar"
+      ],
+      "responses": [
+        "Arey yaar, koi baat nahi! 😊",
+        "Welcome dost! Koi tension nahi!",
+        "Arey, yeh toh mera farz hai! 😄",
+        "Shukriya kya yaar, dost dost hote hain!",
+        "No problem at all! Koi baat nahi!",
+        "Arey, yeh toh bas shuruat hai! 😉"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "how do you work",
+        "what are your features",
+        "capabilities",
+        "assist me",
+        "help kar",
+        "kya kar sakta hai",
+        "kaise kaam karta hai"
+      ],
+      "responses": [
+        "Arey dost, main bas ek simple chatbot hoon! 😊 Main tumse baat kar sakta hoon, jokes suna sakta hoon, aur general questions ke answers de sakta hoon. Bas type kar, main reply kar dunga!",
+        "Hey! Main bas tumhara dost hoon jo baat karne ke liye ready hai! 😄 Jokes, general chit-chat, ya koi bhi sawal - bas bolo!",
+        "Arey yaar, main toh bas tumse friendly chat karne ke liye bana hoon! 😊 Koi bhi topic ho, main ready hoon!",
+        "Dost, main bas tumse baat karne ke liye hoon! 😄 Jokes, questions, ya bas time pass - kuch bhi!",
+        "Hey buddy! Main bas tumhara AI dost hoon! 😊 Koi bhi baat kar sakte hain hum!",
+        "Arey, main toh bas tumse friendly chat karne ke liye hoon! 😄 Koi bhi sawal ho toh bolo!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "weather",
+        "how's the weather",
+        "weather today",
+        "temperature",
+        "is it raining",
+        "sunny today",
+        "mausam kaisa hai",
+        "baarish ho rahi hai",
+        "garmi hai"
+      ],
+      "responses": [
+        "Arey yaar, main toh ghar mein baitha hoon! 😄 Mausam ke baare mein pata nahi! Tu khud dekh le window se! 😊",
+        "Dost, main AI hoon, weather app nahi! 😂 Tu khud check kar le phone se!",
+        "Arey, main toh bas chat karne ke liye hoon! 😄 Weather ke liye tu Google kar le!",
+        "Yaar, main weather forecast nahi kar sakta! 😅 Tu khud dekh le bahar!",
+        "Dost, main bas baat karne ke liye hoon! 😊 Weather ke liye tu weather app use kar!",
+        "Arey, main toh ghar mein hi rehta hoon! 😄 Tu khud check kar le mausam!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "joke",
+        "funny",
+        "make me laugh",
+        "humor",
+        "comedy",
+        "joke sunao",
+        "hasao mujhe",
+        "funny bolo",
+        "ek joke sunao",
+        "mujhe hasao",
+        "kuch funny bolo",
+        "mazak kar",
+        "joke suna",
+        "hasao yaar",
+        "ek joke bolo",
+        "funny joke",
+        "mazak sunao",
+        "hasao dost",
+        "joke suna yaar",
+        "ek joke sun",
+        "mujhe hasa do",
+        "kuch mazak kar",
+        "joke bolo na",
+        "hasao please"
+      ],
+      "responses": [
+        "Ek joke sun! 😄 Doctor ne patient se pucha: 'Aapko kya hua hai?' Patient bola: 'Doctor sahab, main toh bas check-up ke liye aaya hoon!' 😂",
+        "Arey yaar, ek joke sun! 😊 Teacher ne pucha: '2+2 kya hota hai?' Student bola: '4!' Teacher: 'Perfect!' Student: 'Perfect kya hota hai?' 😄",
+        "Ek funny joke sun dost! 😂 Ek aadmi ne apne dost se pucha: 'Tumhare paas kitne dost hain?' Dost bola: 'Main count kar leta hoon... 1, 2, 3...' 😄",
+        "Arey, ek joke sun! 😊 Ek bachhe ne apni mummy se pucha: 'Mummy, aapko kya pasand hai?' Mummy: 'Tum!' Bachha: 'Aur papa ko?' Mummy: 'Main!' 😂",
+        "Dost, ek joke sun! 😄 Ek aadmi ne apne dost se pucha: 'Tum kya kar rahe ho?' Dost: 'Kuch nahi!' Aadmi: 'Perfect! Main bhi wahi kar raha hoon!' 😊",
+        "Arey yaar, ek joke sun! 😂 Teacher: 'Agar tumhare paas 5 apples hain aur tum 3 kha jao, toh kya hoga?' Student: 'Mujhe diabetes ho jayega!' 😄"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name",
+        "who are you",
+        "what should I call you",
+        "your name",
+        "identify yourself",
+        "tumhara naam kya hai",
+        "tum kaun ho",
+        "tumhe kya bulau"
+      ],
+      "responses": [
+        "Arey dost, main toh bas tumhara AI dost hoon! 😊 Tu mujhe ChatBot ya dost bula sakta hai!",
+        "Hey! Main toh bas tumhara friendly chatbot hoon! 😄 Tu mujhe kuch bhi bula sakta hai!",
+        "Arey yaar, main toh bas tumse baat karne ke liye bana hoon! 😊 Naam toh bas ChatBot hai, lekin tu dost samajh sakta hai!",
+        "Dost, main toh bas tumhara AI buddy hoon! 😄 Tu mujhe kuch bhi bula sakta hai!",
+        "Arey, main toh bas tumse chat karne ke liye hoon! 😊 Naam toh ChatBot hai, lekin tu friend samajh sakta hai!",
+        "Hey buddy! Main toh bas tumhara AI dost hoon! 😄 Tu mujhe kuch bhi bula sakta hai!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you",
+        "how do you feel",
+        "are you okay",
+        "how's it going",
+        "what's up with you",
+        "kaise ho",
+        "kya haal hai",
+        "sab badhiya",
+        "theek ho"
+      ],
+      "responses": [
+        "Arey dost, main toh perfect hoon! 😊 Tu bata, tu kaise hai?",
+        "Hey! Main toh bilkul theek hoon! 😄 Tu bata, kya haal hai?",
+        "Arey yaar, main toh ekdum badhiya hoon! 😊 Tu bata, sab theek?",
+        "Dost, main toh functioning perfectly hoon! 😄 Tu bata, kya chal raha hai?",
+        "Arey, main toh excellent hoon! 😊 Tu bata, kaise ho?",
+        "Hey buddy! Main toh ekdum perfect hoon! 😄 Tu bata, sab badhiya?"
+      ]
+    },
+    {
+      "tag": "casual_chat",
+      "patterns": [
+        "kya kar raha hai",
+        "what are you doing",
+        "busy ho",
+        "are you busy",
+        "kya chal raha hai",
+        "what's happening",
+        "kuch interesting",
+        "boring lag raha hai",
+        "time pass kar"
+      ],
+      "responses": [
+        "Arey dost, main toh bas tumse baat kar raha hoon! 😊 Kya kar raha hai tu?",
+        "Hey! Main toh bas yahan baitha hoon, tumse baat karne ke liye! 😄 Tu bata, kya chal raha hai?",
+        "Arey yaar, main toh bas tumhara dost hoon! 😊 Kya kar raha hai tu aaj?",
+        "Dost, main toh bas chat karne ke liye ready hoon! 😄 Tu bata, kya interesting ho raha hai?",
+        "Arey, main toh bas yahan hoon! 😊 Tu bata, kya kar raha hai?",
+        "Hey buddy! Main toh bas tumse baat karne ke liye hoon! 😄 Tu bata, kya chal raha hai?"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "feeling down",
+        "sad ho",
+        "depressed",
+        "need motivation",
+        "hume uthao",
+        "cheer up",
+        "happy kar do",
+        "mujhe motivate kar",
+        "udaas hoon",
+        "dukhi hoon",
+        "mood off hai",
+        "tension hai",
+        "worried hoon",
+        "stress hai",
+        "mujhe cheer up kar",
+        "mujhe khush kar",
+        "mujhe uthao",
+        "mujhe samjhao",
+        "mujhe support kar",
+        "mujhe encourage kar",
+        "mujhe positive kar",
+        "mujhe inspire kar"
+      ],
+      "responses": [
+        "Arey dost, sun! Life mein ups and downs toh aate rehte hain! 😊 Tu strong hai, tu kar sakta hai! Main yahan hoon na! 🌟",
+        "Hey! Don't worry yaar! 😄 Tough times don't last, tough people do! Tu toh ekdum strong hai! 💪",
+        "Arey yaar, tension mat le! 😊 Har problem ka solution hota hai! Tu bas positive rah, sab theek ho jayega! ✨",
+        "Dost, life mein sab kuch possible hai! 😄 Tu bas believe kar, aur dekh kya hota hai! Main support karunga! 🌟",
+        "Arey, don't give up! 😊 Tu toh ekdum amazing hai! Bas thoda patience rakh, sab theek ho jayega! ✨",
+        "Hey buddy! Life is beautiful! 😄 Tu bas smile kar, aur dekh kya hota hai! Main yahan hoon na! 🌟"
+      ]
+    },
+    {
+      "tag": "hinglish_casual",
+      "patterns": [
+        "kya haal chaal",
+        "kya chal raha hai",
+        "sab badhiya",
+        "sab theek",
+        "kaise ho dost",
+        "kya kar rahe ho",
+        "kya haal hai dost",
+        "dost kaise ho",
+        "yaar kaise ho",
+        "bhai kaise ho",
+        "sister kaise ho",
+        "brother kaise ho",
+        "friend kaise ho",
+        "buddy kaise ho",
+        "pal kaise ho",
+        "mate kaise ho",
+        "dude kaise ho",
+        "guy kaise ho",
+        "girl kaise ho",
+        "person kaise ho"
+      ],
+      "responses": [
+        "Arey dost, main toh bilkul badhiya hoon! 😊 Tu bata, tu kaise hai?",
+        "Hey yaar, main toh ekdum perfect hoon! 😄 Tu bata, kya haal hai?",
+        "Arey bhai, main toh functioning perfectly hoon! 😊 Tu bata, sab theek?",
+        "Dost, main toh excellent hoon! 😄 Tu bata, kya chal raha hai?",
+        "Hey buddy, main toh ekdum mast hoon! 😊 Tu bata, kaise ho?",
+        "Arey yaar, main toh bilkul theek hoon! 😄 Tu bata, sab badhiya?"
+      ]
+    }
+  ]
+}
